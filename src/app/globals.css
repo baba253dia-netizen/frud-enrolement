@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Couleurs du parti FRUD */
+:root {
+  --frud-blue: #0047AB;
+  --frud-black: #000000;
+  --frud-white: #FFFFFF;
+  --frud-red: #CC0000;
+}
+
+/* Styles de base mobile-first */
+body {
+  font-family: Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Masquer la barre de défilement sur mobile */
+::-webkit-scrollbar {
+  width: 0px;
+}
